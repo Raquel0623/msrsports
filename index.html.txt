@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MSR Sports | Construcción de Pistas de Pádel y Multideporte</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #0d47a1;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      background: #1565c0;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1604072366596-c4a7b65c8f5d?auto=format&fit=crop&w=1200&q=60') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      background: rgba(0,0,0,0.5);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .contact {
+      background: #f2f2f2;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer {
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    @media (max-width: 600px) {
+      .gallery {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MSR Sports</h1>
+    <p>Constructores de pistas de pádel y multideporte</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Quiénes somos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio" class="hero">
+    <h2>Construimos tu espacio deportivo ideal</h2>
+  </section>
+
+  <section id="nosotros">
+    <h2>Quiénes somos</h2>
+    <p>En <strong>MSR Sports</strong> nos especializamos en el diseño y construcción de pistas de pádel y multideporte. Contamos con un equipo técnico con amplia experiencia y materiales de primera calidad para garantizar resultados duraderos y de alto rendimiento.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Nuestros servicios</h2>
+    <ul>
+      <li>✅ Construcción de pistas de pádel panorámicas y semi panorámicas</li>
+      <li>✅ Instalación de pistas multideporte y césped artificial</li>
+      <li>✅ Mantenimiento y reparación de instalaciones deportivas</li>
+      <li>✅ Asesoramiento técnico personalizado</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería de proyectos</h2>
+    <div class="gallery" style="display:flex;flex-wrap:wrap;justify-content:center;">
+      <img src="https://images.unsplash.com/photo-1604072366596-c4a7b65c8f5d?auto=format&fit=crop&w=600&q=60" alt="Pista de pádel">
+      <img src="https://images.unsplash.com/photo-1605649303417-3ddc021da3a8?auto=format&fit=crop&w=600&q=60" alt="Pista multideporte">
+      <img src="https://images.unsplash.com/photo-1604076893837-0e7c14b4cc02?auto=format&fit=crop&w=600&q=60" alt="Césped artificial">
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <h2>Contáctanos</h2>
+    <p>📞 Teléfono: <strong>+34 600 000 000</strong></p>
+    <p>📧 Email: <strong>info@msrsports.com</strong></p>
+    <p>📍 Ubicación: España</p>
+  </section>
+
+  <footer>
+    <p>© 2025 MSR Sports — Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
